@@ -14,7 +14,6 @@
 As you play, you'll be earning Sight Al testnet points. These points can be exchanged for mainnet tokens at launch.
 
 - Detail: [Here](https://sightai.gitbook.io/docs/sight-oracle-incentive-plan-season-1)
-
 - Source: [Twitter](https://x.com/theSightAI/status/1839696985147973783)
 
 ## PREREQUISITE
