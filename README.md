@@ -39,7 +39,7 @@ As you play, you'll be earning Sight Al testnet points. These points can be exch
 ### LINUX
 1. Clone project repository
    ```
-   git clone https://github.com/Rambeboy/sight-ai-bot.git` and cd to project dir `cd sight-ai-bot
+   git clone https://github.com/Rambeboy/sight-ai-bot.git && cd sight-ai-bot
    ```
 2. Install dependencies
    ```
