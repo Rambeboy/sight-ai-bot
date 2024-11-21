@@ -20,7 +20,11 @@ As you play, you'll be earning Sight Al testnet points. These points can be exch
 
 - Git
 - Node JS
-- Eth Holesky Get it from: [Faucet 1](https://holesky-faucet.pk910.de/) | [Faucet 2](https://bwarelabs.com/faucets/ethereum-holesky)
+- Eth Holesky Get it from:
+
+- **[Faucet 1](https://holesky-faucet.pk910.de/)**
+
+- **[Faucet 2](https://bwarelabs.com/faucets/ethereum-holesky)**
 
 ## BOT FEATURE
 
