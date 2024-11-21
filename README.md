@@ -5,7 +5,7 @@
 🏷 Reward : Confirmed
 Network : Holesky
 
-🪂 Register: https://sightai.io/dashboard?referral-code=V4RW2K
+🪂 Register: Register Here](https://sightai.io/dashboard?referral-code=V4RW2K)
 
 ➖ Get ETH Holesky faucet
 
