@@ -1,1 +1,37 @@
-const _0x48abe1=_0xdd2f;(function(_0x4ab652,_0x3837a2){const _0x8dfca3=_0xdd2f,_0x1b385e=_0x4ab652();while(!![]){try{const _0x2961a2=-parseInt(_0x8dfca3(0xba))/0x1+parseInt(_0x8dfca3(0xaa))/0x2+-parseInt(_0x8dfca3(0xb3))/0x3*(parseInt(_0x8dfca3(0xbb))/0x4)+parseInt(_0x8dfca3(0xa4))/0x5+-parseInt(_0x8dfca3(0xa9))/0x6+parseInt(_0x8dfca3(0xb7))/0x7+-parseInt(_0x8dfca3(0xa8))/0x8;if(_0x2961a2===_0x3837a2)break;else _0x1b385e['push'](_0x1b385e['shift']());}catch(_0x2a1428){_0x1b385e['push'](_0x1b385e['shift']());}}}(_0x645d,0x5ded1));import{Twisters}from'twisters';import'./helper.js';function _0x645d(){const _0x28bd34=['\x0aPoint\x20\x20\x20\x20\x20\x20\x20\x20:\x20','59730IQLZvg','111208uFkGAQ','user','put','\x20-\x20','indexOf','2224545LqeNLg','\x0a\x0aStatus\x20:\x20','info','\x0a==============================================','938856iLCezb','658224fiUsSm','426460ZTDumA','clear','SYMBOL','address','\x0aBalance\x20\x20\x20\x20\x20\x20:\x20','twisters','Account\x20','remove','balance','57yjOXNw','\x0a=================\x20Account\x20','\x20=================\x0aAddress\x20\x20\x20\x20\x20\x20:\x20','\x0a=============================================','3791277KtWyqm','\x0a=============================================\x0aInfo\x20:\x20'];_0x645d=function(){return _0x28bd34;};return _0x645d();}import _0x2f0969 from'./logger.js';import _0x37570c from'../core/core.js';import{privateKey}from'../../accounts/accounts.js';import{RPC}from'../core/network/rpc.js';class Twist{constructor(){const _0x564e69=_0xdd2f;this[_0x564e69(0xaf)]=new Twisters();}['log'](_0x28a723='',_0x36d72b='',_0x1f4ee2=new _0x37570c(),_0x451a09){const _0x48667f=_0xdd2f;_0x451a09==undefined&&(_0x2f0969[_0x48667f(0xa6)](_0x48667f(0xb0)+(privateKey['indexOf'](_0x36d72b)+0x1)+_0x48667f(0xa2)+_0x28a723),_0x451a09='-');const _0x32d98c=_0x1f4ee2[_0x48667f(0xad)]??'-',_0x206914=_0x1f4ee2[_0x48667f(0xb2)]??'-',_0x58d7a6=_0x1f4ee2[_0x48667f(0xbc)]??{},_0x4ea0df=_0x58d7a6['point']??'-';this[_0x48667f(0xaf)][_0x48667f(0xbd)](_0x36d72b,{'text':_0x48667f(0xb4)+(privateKey[_0x48667f(0xa3)](_0x36d72b)+0x1)+_0x48667f(0xb5)+_0x32d98c+_0x48667f(0xae)+_0x206914+'\x20'+RPC[_0x48667f(0xac)]+_0x48667f(0xb9)+_0x4ea0df+_0x48667f(0xa5)+_0x28a723+'\x0aDelay\x20:\x20'+_0x451a09+_0x48667f(0xa7)});}[_0x48abe1(0xa6)](_0x3813db=''){const _0x2f8a4d=_0x48abe1;this['twisters'][_0x2f8a4d(0xbd)](0x2,{'text':_0x2f8a4d(0xb8)+_0x3813db+_0x2f8a4d(0xb6)});return;}['clearInfo'](){const _0x1f8fd1=_0x48abe1;this[_0x1f8fd1(0xaf)][_0x1f8fd1(0xb1)](0x2);}[_0x48abe1(0xab)](_0x4f529e){const _0x3c3aa6=_0x48abe1;this[_0x3c3aa6(0xaf)]['remove'](_0x4f529e);}}function _0xdd2f(_0x33d893,_0xca573b){const _0x645dbd=_0x645d();return _0xdd2f=function(_0xdd2fec,_0x258088){_0xdd2fec=_0xdd2fec-0xa2;let _0x2b8939=_0x645dbd[_0xdd2fec];return _0x2b8939;},_0xdd2f(_0x33d893,_0xca573b);}export default new Twist();
+import { Twisters } from 'twisters';
+import './helper.js';
+import _0x2f0969 from './logger.js';
+import _0x37570c from '../core/core.js';
+import { privateKey } from '../../accounts/accounts.js';
+import { RPC } from '../core/network/rpc.js';
+class Twist {
+  constructor() {
+    this.twisters = new Twisters();
+  }
+  ['log'](_0x28a723 = '', _0x36d72b = '', _0x1f4ee2 = new _0x37570c(), _0x451a09) {
+    if (_0x451a09 == undefined) {
+      _0x2f0969.info("Account " + (privateKey.indexOf(_0x36d72b) + 0x1) + " - " + _0x28a723);
+      _0x451a09 = '-';
+    }
+    const _0x32d98c = _0x1f4ee2.address ?? '-';
+    const _0x206914 = _0x1f4ee2.balance ?? '-';
+    const _0x58d7a6 = _0x1f4ee2.user ?? {};
+    const _0x4ea0df = _0x58d7a6.point ?? '-';
+    this.twisters.put(_0x36d72b, {
+      'text': "\n================== Account " + (privateKey.indexOf(_0x36d72b) + 0x1) + " ==================\nAddress      : " + _0x32d98c + "\nBalance      : " + _0x206914 + " " + RPC.SYMBOL + "\nPoint        : " + _0x4ea0df + "\n\nStatus : " + _0x28a723 + "\nDelay : " + _0x451a09 + "\n=============================================="
+    });
+  }
+  ["info"](_0x3813db = '') {
+    this.twisters.put(0x2, {
+      'text': "\n=============================================\nInfo : " + _0x3813db + "\n============================================="
+    });
+    return;
+  }
+  ['clearInfo']() {
+    this.twisters.remove(0x2);
+  }
+  ["clear"](_0x4f529e) {
+    this.twisters.remove(_0x4f529e);
+  }
+}
+export default new Twist();
