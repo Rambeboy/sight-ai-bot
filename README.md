@@ -86,13 +86,9 @@ As you play, you'll be earning Sight Al testnet points. These points can be exch
 
 9. Back to `sight-ai-bot` directory. 
 
-10.  To start the app open your `Command Prompt` or `Power Shell` again and run
+10. To start the app open your `Command Prompt` or `Power Shell` again and run
     ```
     npm run start
-    ```
-    or
-    ```
-    node app/index.js
     ```
 
 ## UPDATE BOT
