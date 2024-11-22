@@ -53,7 +53,7 @@ export default class Core extends API {
       if (_0x8b59d3) {
         await Helper.delay(0x1f4, this.acc, "Getting User Information of " + this.wallet.address, this);
       }
-      const _0x496815 = await this.fetch("/dashboard?referral-code=" + this.something, 'POST', undefined, [this.address], {
+      const _0x496815 = await this.fetch("/dashboard", 'POST', undefined, [this.address], {
         'Referer': "https://sightai.io/dashboard",
         'Next-Action': "5dd1862a3d5d9a970c36c027f2d82f7280223906",
         'Next-Router-State-Tree': this.stateTree,
