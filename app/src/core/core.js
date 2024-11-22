@@ -1,1 +1,211 @@
-const _0xf301de=_0x46ce;(function(_0x553bef,_0xff91a2){const _0x2b921a=_0x46ce,_0x2d1b3d=_0x553bef();while(!![]){try{const _0x574368=parseInt(_0x2b921a(0x190))/0x1+parseInt(_0x2b921a(0x160))/0x2*(-parseInt(_0x2b921a(0x1a7))/0x3)+parseInt(_0x2b921a(0x187))/0x4+parseInt(_0x2b921a(0x18a))/0x5+parseInt(_0x2b921a(0x169))/0x6+parseInt(_0x2b921a(0x141))/0x7+-parseInt(_0x2b921a(0x18b))/0x8;if(_0x574368===_0xff91a2)break;else _0x2d1b3d['push'](_0x2d1b3d['shift']());}catch(_0x3793d8){_0x2d1b3d['push'](_0x2d1b3d['shift']());}}}(_0x1b0c,0xb90e5));import{ethers}from'ethers';function _0x46ce(_0x293a1b,_0x3ce46b){const _0x1b0c9d=_0x1b0c();return _0x46ce=function(_0x46cec1,_0x536903){_0x46cec1=_0x46cec1-0x13f;let _0x34b595=_0x1b0c9d[_0x46cec1];return _0x34b595;},_0x46ce(_0x293a1b,_0x3ce46b);}import{API}from'../api/api.js';import{privateKey}from'../../accounts/accounts.js';function _0x1b0c(){const _0x543f17=['Balance\x20updated','substring','fetch','\x0aChain\x20ID:\x20','Wallet\x20connected\x20','Message\x20to\x20sign:\x20','https://sightai.io/dashboard?referral-code=','parseEther','Invalid\x20account\x20Secret\x20Phrase\x20or\x20Private\x20Key','https://sightai.io','indexOf','find','tx/','Wallet','40564mbJtTQ','JsonRpcProvider','POST','length','getFeeData','...','\x20wants\x20you\x20to\x20sign\x20in\x20with\x20your\x20Ethereum\x20account:\x20','startsWith','stringify','226560QpOLgm','status','/dashboard?referral-code=','played','sightai.io','getBalance','balance','Tx\x20Executed\x20\x0a','\x0aIssued\x20At:\x20','...\x20Attempt\x20','VERSION','trim','sightAiSignature','JSON\x20Data\x20:\x20','wagmi.recentConnectorId=\x22com.okex.wallet\x22;\x20wagmi.store={\x22state\x22:{\x22connections\x22:{\x22__type\x22:\x22Map\x22,\x22value\x22:[[\x22b5fe8e1e492\x22,{\x22accounts\x22:[\x22','toString','Estimating\x20Gas...','getUserInfo','Private\x20Key','decodeData','\x20of\x20','Getting\x20Wallet\x20Balance\x20of\x20','Secret\x20Phrase','Try\x20To\x20Check\x20In...','wallet','arcade','signMessage','user','Successfully\x20Got\x20Arcade\x20Info','parse','5786624PjGCXC','shortMessage','stateTree','5335595kMFuTp','31879960MdOJVC','winner','push','info','Failed\x20to\x20connect\x20to\x20SIGHT\x20AI','1431294CYKDFV','Failed\x20To\x20Check\x20In\x20','wait','5dd1862a3d5d9a970c36c027f2d82f7280223906','5ac42dcc7a005b04d92431cdc4172391e05d2ca3','toISOString','Tx\x20Confirmed\x20and\x20Finalizing:\x20','getTransactionCount','Executing\x20TX...','e5afaaaeff44c664f214a016c10409c8e930d77a','connectWallet','RPCURL','split','Connecting\x20to\x20Sight\x20Ai\x20Dapps','state','acc','address','message','\x0aNonce:\x20','provider','sendTransaction','cookie','Getting\x20Arcade\x20Game\x20Information...','24TgROga','Prepare\x20for\x20Tx...','$undefined','Account\x20Type\x20:\x20','filter','connectSightAiDapps','Successfully\x20Got\x20User\x20Data','V4RW2K','Preparing\x20to\x20send\x20transaction\x20for\x20Arcade\x20Game\x20ID\x20','EXPLORER','0x0000000000000000000000000000000000000000','serializeBigInt','forEach','delay','sessionCookie','\x22],\x22chainId\x22:17000,\x22connector\x22:{\x22id\x22:\x22com.okex.wallet\x22,\x22name\x22:\x22OKX\x20Wallet\x22,\x22type\x22:\x22injected\x22,\x22uid\x22:\x22b5fe8e1e492\x22}}],[\x228c5b60aac25\x22,{\x22accounts\x22:[\x22','executeTx','6456877lIGEpO','URL','Successfully\x20Check\x20In','\x22],\x22chainId\x22:17000,\x22connector\x22:{\x22id\x22:\x22metaMask\x22,\x22name\x22:\x22MetaMask\x22,\x22type\x22:\x22injected\x22,\x22uid\x22:\x228c5b60aac25\x22}}]]},\x22chainId\x22:17000,\x22current\x22:\x228c5b60aac25\x22},\x22version\x22:2}','CHAINID','pools','https://sightai.io/fomo','?????','%5C%22%7D%22%2C%7B%7D%2C%22%2Fdashboard%3Freferral-code%3D','PLAYAMOUNT','/fomo','\x22],\x22chainId\x22:17000,\x22connector\x22:{\x22id\x22:\x22metaMask\x22,\x22name\x22:\x22MetaMask\x22,\x22type\x22:\x22injected\x22,\x22uid\x22:\x228c5b60aac25\x22}}]]},\x22chainId\x22:17000,\x22current\x22:\x228c5b60aac25\x22},\x22version\x22:2};\x20','gasPrice','Connected\x20to\x20Sight\x20AI','something','Connecting\x20to\x20Account\x20:\x20','checkIn'];_0x1b0c=function(){return _0x543f17;};return _0x1b0c();}import{Helper}from'../utils/helper.js';import _0x4bc345 from'../utils/logger.js';import{RPC}from'./network/rpc.js';import{SIGHTAI}from'./dapps/sight_ai.js';import{Config}from'../../config/config.js';export default class Core extends API{constructor(_0x36c156){const _0x58c488=_0x46ce;super(_0x58c488(0x15b),_0x58c488(0x16d),_0x58c488(0x15b),_0x58c488(0x1ae)),this[_0x58c488(0x19f)]=_0x36c156,this[_0x58c488(0x16c)]=![],this[_0x58c488(0x1a3)]=new ethers[(_0x58c488(0x161))](RPC[_0x58c488(0x19b)],RPC[_0x58c488(0x145)]),this[_0x58c488(0x189)]='%5B%22%22%2C%7B%22children%22%3A%5B%22(platform)%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22__PAGE__%3F%7B%5C%22referral-code%5C%22%3A%5C%22'+this[_0x58c488(0x14f)]+_0x58c488(0x149)+this[_0x58c488(0x14f)]+'%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D';}async[_0xf301de(0x19a)](){const _0xc733f2=_0xf301de;try{const _0x4ca45b=this[_0xc733f2(0x19f)]['replace'](/^0x/,'');await Helper[_0xc733f2(0x1b4)](0x3e8,this['acc'],_0xc733f2(0x150)+(privateKey[_0xc733f2(0x15c)](this[_0xc733f2(0x19f)])+0x1),this);const _0x46e6fe=Helper['determineType'](_0x4ca45b);_0x4bc345['info'](_0xc733f2(0x1aa)+_0x46e6fe);if(_0x46e6fe==_0xc733f2(0x17f))this[_0xc733f2(0x181)]=new ethers[(_0xc733f2(0x15f))]['fromPhrase'](_0x4ca45b,this[_0xc733f2(0x1a3)]);else{if(_0x46e6fe==_0xc733f2(0x17b))this[_0xc733f2(0x181)]=new ethers[(_0xc733f2(0x15f))](_0x4ca45b[_0xc733f2(0x174)](),this['provider']);else throw Error(_0xc733f2(0x15a));}this[_0xc733f2(0x1a0)]=this[_0xc733f2(0x181)][_0xc733f2(0x1a0)],this[_0xc733f2(0x1a5)]=_0xc733f2(0x177)+this['wallet'][_0xc733f2(0x1a0)]+_0xc733f2(0x13f)+this['wallet'][_0xc733f2(0x1a0)]+_0xc733f2(0x144),await Helper[_0xc733f2(0x1b4)](0x3e8,this[_0xc733f2(0x19f)],_0xc733f2(0x156)+JSON['stringify'](this['wallet'][_0xc733f2(0x1a0)]),this);}catch(_0x5c28c2){throw _0x5c28c2;}}async[_0xf301de(0x16e)](_0x228500=![]){const _0x2e69e9=_0xf301de;try{!_0x228500&&await Helper[_0x2e69e9(0x1b4)](0x1f4,this[_0x2e69e9(0x19f)],_0x2e69e9(0x17e)+this['wallet'][_0x2e69e9(0x1a0)],this);const _0x49be10=ethers['formatEther'](await this[_0x2e69e9(0x1a3)][_0x2e69e9(0x16e)](this[_0x2e69e9(0x181)]['address']));this[_0x2e69e9(0x16f)]=_0x49be10,await Helper[_0x2e69e9(0x1b4)](0x1f4,this[_0x2e69e9(0x19f)],_0x2e69e9(0x152),this);}catch(_0x4bd3a5){throw _0x4bd3a5;}}async[_0xf301de(0x17a)](_0x8b59d3=![]){const _0x4f3810=_0xf301de;try{_0x8b59d3&&await Helper[_0x4f3810(0x1b4)](0x1f4,this[_0x4f3810(0x19f)],'Getting\x20User\x20Information\x20of\x20'+this[_0x4f3810(0x181)][_0x4f3810(0x1a0)],this);const _0x496815=await this['fetch'](_0x4f3810(0x16b)+this['something'],'POST',undefined,[this[_0x4f3810(0x1a0)]],{'Referer':_0x4f3810(0x158)+this[_0x4f3810(0x14f)],'Next-Action':_0x4f3810(0x193),'Next-Router-State-Tree':this[_0x4f3810(0x189)],'Cookie':this[_0x4f3810(0x1a5)]});_0x496815[_0x4f3810(0x16a)]==0xc8&&(this[_0x4f3810(0x184)]=this['decodeData'](_0x496815[_0x4f3810(0x1a1)]),this['cookie']=_0x4f3810(0x177)+this[_0x4f3810(0x1a0)]+'\x22],\x22chainId\x22:17000,\x22connector\x22:{\x22id\x22:\x22com.okex.wallet\x22,\x22name\x22:\x22OKX\x20Wallet\x22,\x22type\x22:\x22injected\x22,\x22uid\x22:\x22b5fe8e1e492\x22}}],[\x228c5b60aac25\x22,{\x22accounts\x22:[\x22'+this['address']+_0x4f3810(0x14c)+this[_0x4f3810(0x1b5)],_0x8b59d3&&await Helper[_0x4f3810(0x1b4)](0x1f4,this[_0x4f3810(0x19f)],_0x4f3810(0x1ad),this));}catch(_0x21f606){throw _0x21f606;}}async[_0xf301de(0x151)](){const _0x3d7660=_0xf301de;try{await Helper['delay'](0x1f4,this[_0x3d7660(0x19f)],_0x3d7660(0x180),this);const _0x9d633c=await this[_0x3d7660(0x154)]('/dashboard?referral-code='+this[_0x3d7660(0x14f)],'POST',undefined,[],{'Referer':'https://sightai.io/dashboard?referral-code='+this['something'],'Next-Action':_0x3d7660(0x199),'Next-Router-State-Tree':this[_0x3d7660(0x189)],'Cookie':this[_0x3d7660(0x1a5)]});if(_0x9d633c[_0x3d7660(0x16a)]==0xc8)await Helper[_0x3d7660(0x1b4)](0x1f4,this['acc'],_0x3d7660(0x143),this);else throw Error(_0x3d7660(0x191)+_0x9d633c['message']);}catch(_0x145846){throw _0x145846;}}async[_0xf301de(0x1ac)](){const _0x3d3de3=_0xf301de;await Helper['delay'](0x3e8,this[_0x3d3de3(0x19f)],_0x3d3de3(0x19d),this);const _0x5cf463=SIGHTAI[_0x3d3de3(0x142)]+_0x3d3de3(0x166)+this[_0x3d3de3(0x1a0)]+'\x0a\x0aMake\x20sure\x20that\x20you\x20trust\x20this\x20site\x20and\x20are\x20aware\x20of\x20the\x20security\x20implications\x20of\x20signing\x20this\x20message.\x0a\x0aURI:\x20'+SIGHTAI[_0x3d3de3(0x142)]+'\x0aVersion:\x20'+SIGHTAI[_0x3d3de3(0x173)]+_0x3d3de3(0x155)+RPC[_0x3d3de3(0x145)]+_0x3d3de3(0x1a2)+Helper['generateNonce']()+_0x3d3de3(0x171)+new Date()[_0x3d3de3(0x195)]()+'\x0a';_0x4bc345[_0x3d3de3(0x18e)](_0x3d3de3(0x157)+_0x5cf463);const _0x25eb07=await this['wallet'][_0x3d3de3(0x183)](_0x5cf463);_0x4bc345[_0x3d3de3(0x18e)]('Signed\x20Message:\x20'+_0x25eb07);const _0x4a59dd=await this[_0x3d3de3(0x154)]('/dashboard?referral-code='+this['something'],'POST',undefined,[_0x25eb07,_0x5cf463,this['something']],{'Referer':_0x3d3de3(0x158)+this[_0x3d3de3(0x14f)],'Next-Action':'3b934a35aaaa2acd0f7846cda4c3b1031a840b89','Next-Router-State-Tree':this[_0x3d3de3(0x189)],'Cookie':this['cookie']});if(_0x4a59dd[_0x3d3de3(0x16a)]==0xc8)await Helper[_0x3d3de3(0x1b4)](0x1f4,this[_0x3d3de3(0x19f)],_0x3d3de3(0x14e),this),this[_0x3d3de3(0x175)]=_0x25eb07;else throw Error(_0x3d3de3(0x18f));}async['getArcadeData'](_0x2f148c=![]){const _0x422ad4=_0xf301de;try{_0x2f148c&&await Helper[_0x422ad4(0x1b4)](0x1f4,this['acc'],_0x422ad4(0x1a6),this);const _0x2c6980=await this[_0x422ad4(0x154)](_0x422ad4(0x14b),_0x422ad4(0x162),undefined,[0x0,_0x422ad4(0x1a9),0x1,0x6],{'Referer':_0x422ad4(0x147),'Next-Action':_0x422ad4(0x194),'Next-Router-State-Tree':this[_0x422ad4(0x189)],'Cookie':this[_0x422ad4(0x1a5)]});if(_0x2c6980[_0x422ad4(0x16a)]==0xc8){const _0x4f37e6=this['decodeData'](_0x2c6980['message']);this[_0x422ad4(0x182)]=[],_0x4f37e6['pools']&&this['arcade'][_0x422ad4(0x18d)](..._0x4f37e6[_0x422ad4(0x146)]),this['availableArcade']=this[_0x422ad4(0x182)][_0x422ad4(0x15d)](_0x484767=>_0x484767[_0x422ad4(0x19e)]==0x1||_0x484767[_0x422ad4(0x19e)]==0x2||_0x484767[_0x422ad4(0x18c)]==_0x422ad4(0x1b1)),_0x2f148c&&await Helper[_0x422ad4(0x1b4)](0x1f4,this[_0x422ad4(0x19f)],_0x422ad4(0x185),this);}}catch(_0x1e3206){throw _0x1e3206;}}async['playArcade'](_0x681114){const _0x4d04a4=_0xf301de;try{await Helper[_0x4d04a4(0x1b4)](0x3e8,this[_0x4d04a4(0x19f)],'Playing\x20Arcade\x20Game\x20ID\x20'+_0x681114['id']+_0x4d04a4(0x165),this),await Helper[_0x4d04a4(0x1b4)](0x1f4,this[_0x4d04a4(0x19f)],_0x4d04a4(0x1a8),this),await Helper[_0x4d04a4(0x1b4)](0x1f4,this['acc'],_0x4d04a4(0x179),this);const _0x4f32a5=ethers[_0x4d04a4(0x159)](Config[_0x4d04a4(0x14a)][_0x4d04a4(0x178)]()),_0x2bac48=Config['RAWDATA'],_0x338271=await this[_0x4d04a4(0x1a3)][_0x4d04a4(0x197)](this['wallet'][_0x4d04a4(0x1a0)],'latest'),_0x3823ab=await this[_0x4d04a4(0x1a3)][_0x4d04a4(0x164)](),_0x49e33d=await this['estimateGasWithRetry'](_0x681114[_0x4d04a4(0x1a0)],_0x4f32a5,_0x2bac48,0x3);await Helper[_0x4d04a4(0x1b4)](0x1f4,this[_0x4d04a4(0x19f)],'Build\x20Tx\x20Data...',this);const _0x3eea25={'from':this['address'],'to':_0x681114[_0x4d04a4(0x1a0)],'value':_0x4f32a5,'gasLimit':_0x49e33d,'gasPrice':_0x3823ab[_0x4d04a4(0x14d)],'nonce':_0x338271,'data':_0x2bac48};_0x4bc345[_0x4d04a4(0x18e)](_0x4d04a4(0x1af)+_0x681114['id']),await this['executeTx'](_0x3eea25),this[_0x4d04a4(0x16c)]=!![];}catch(_0x3bf372){await Helper[_0x4d04a4(0x1b4)](0xbb8,this[_0x4d04a4(0x19f)],'Error\x20Playing\x20Arcade\x20'+_0x3bf372[_0x4d04a4(0x1a1)]+_0x4d04a4(0x165),this),this[_0x4d04a4(0x16c)]=![];}}async['estimateGasWithRetry'](_0x3ebbe7,_0x2fb19e,_0x4f171f,_0x3dfc8a=0x3,_0x4b0411=0xbb8){const _0x150c9d=_0xf301de;for(let _0x268487=0x0;_0x268487<_0x3dfc8a;_0x268487++){try{const _0x327c52=await this[_0x150c9d(0x1a3)]['estimateGas']({'from':this[_0x150c9d(0x181)][_0x150c9d(0x1a0)],'to':_0x3ebbe7,'value':_0x2fb19e,'data':_0x4f171f});return _0x327c52;}catch(_0x30e02b){await Helper[_0x150c9d(0x1b4)](_0x4b0411,this['acc'],_0x30e02b[_0x150c9d(0x188)]+_0x150c9d(0x172)+(_0x268487+0x1)+_0x150c9d(0x17d)+_0x3dfc8a,this);if(_0x268487===_0x3dfc8a-0x1)throw Error('Failed\x20to\x20estimate\x20gas\x20after\x20'+_0x3dfc8a+'\x20attempts.');}}}[_0xf301de(0x17c)](_0x11058c){const _0x326f9c=_0xf301de,_0x2f846e=_0x11058c[_0x326f9c(0x19c)]('\x0a')[_0x326f9c(0x1ab)](Boolean);let _0x2feee7=null;_0x2f846e[_0x326f9c(0x1b3)](_0x7e1350=>{const _0x38693c=_0x326f9c;if(_0x7e1350[_0x38693c(0x167)]('1:')){const _0x19870b=_0x7e1350[_0x38693c(0x153)](0x2)['trim']();try{_0x2feee7=JSON[_0x38693c(0x186)](_0x19870b);}catch(_0x6f41fc){_0x2feee7={};}}});let _0x22d028=JSON[_0x326f9c(0x168)](_0x2feee7)['replace'](new RegExp(this[_0x326f9c(0x14f)],'g'),_0x326f9c(0x148));return _0x22d028[_0x326f9c(0x163)]>0xc8&&(_0x22d028=_0x22d028[_0x326f9c(0x153)](0x0,0xc8)+_0x326f9c(0x165)),_0x4bc345[_0x326f9c(0x18e)](_0x326f9c(0x176)+_0x22d028),_0x2feee7;}async[_0xf301de(0x140)](_0x3ce68e){const _0x4c592c=_0xf301de;_0x4bc345[_0x4c592c(0x18e)]('TX\x20DATA\x20'+JSON[_0x4c592c(0x168)](Helper[_0x4c592c(0x1b2)](_0x3ce68e))),await Helper[_0x4c592c(0x1b4)](0x1f4,this[_0x4c592c(0x19f)],_0x4c592c(0x198),this);const _0x2ad7a0=await this[_0x4c592c(0x181)][_0x4c592c(0x1a4)](_0x3ce68e),_0x45d591=await _0x2ad7a0[_0x4c592c(0x192)]();_0x4bc345[_0x4c592c(0x18e)](_0x4c592c(0x196)+JSON[_0x4c592c(0x168)](_0x45d591)),await Helper[_0x4c592c(0x1b4)](0x1388,this[_0x4c592c(0x19f)],_0x4c592c(0x170)+RPC[_0x4c592c(0x1b0)]+_0x4c592c(0x15e)+_0x45d591['hash'],this),await this[_0x4c592c(0x16e)](!![]);}}
+import { ethers } from 'ethers';
+import { API } from '../api/api.js';
+import { privateKey } from '../../accounts/accounts.js';
+import { Helper } from '../utils/helper.js';
+import _0x4bc345 from '../utils/logger.js';
+import { RPC } from './network/rpc.js';
+import { SIGHTAI } from './dapps/sight_ai.js';
+import { Config } from '../../config/config.js';
+export default class Core extends API {
+  constructor(_0x36c156) {
+    super("https://sightai.io", "sightai.io", "https://sightai.io");
+    this.acc = _0x36c156;
+    this.played = false;
+    this.provider = new ethers.JsonRpcProvider(RPC.RPCURL, RPC.CHAINID);
+    this.stateTree = '%5B%22%22%2C%7B%22children%22%3A%5B%22(platform)%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22__PAGE__%3F%7B%5C%22referral-code%5C%22%3A%5C%22' + this.something + "%5C%22%7D%22%2C%7B%7D%2C%22%2Fdashboard%3Freferral-code%3D" + this.something + '%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D';
+  }
+  async ["connectWallet"]() {
+    try {
+      const _0x4ca45b = this.acc.replace(/^0x/, '');
+      await Helper.delay(0x3e8, this.acc, "Connecting to Account : " + (privateKey.indexOf(this.acc) + 0x1), this);
+      const _0x46e6fe = Helper.determineType(_0x4ca45b);
+      _0x4bc345.info("Account Type : " + _0x46e6fe);
+      if (_0x46e6fe == "Secret Phrase") {
+        this.wallet = new ethers.Wallet.fromPhrase(_0x4ca45b, this.provider);
+      } else {
+        if (_0x46e6fe == "Private Key") {
+          this.wallet = new ethers.Wallet(_0x4ca45b.trim(), this.provider);
+        } else {
+          throw Error("Invalid account Secret Phrase or Private Key");
+        }
+      }
+      this.address = this.wallet.address;
+      this.cookie = "wagmi.recentConnectorId=\"com.okex.wallet\"; wagmi.store={\"state\":{\"connections\":{\"__type\":\"Map\",\"value\":[[\"b5fe8e1e492\",{\"accounts\":[\"" + this.wallet.address + "\"],\"chainId\":17000,\"connector\":{\"id\":\"com.okex.wallet\",\"name\":\"OKX Wallet\",\"type\":\"injected\",\"uid\":\"b5fe8e1e492\"}}],[\"8c5b60aac25\",{\"accounts\":[\"" + this.wallet.address + "\"],\"chainId\":17000,\"connector\":{\"id\":\"metaMask\",\"name\":\"MetaMask\",\"type\":\"injected\",\"uid\":\"8c5b60aac25\"}}]]},\"chainId\":17000,\"current\":\"8c5b60aac25\"},\"version\":2}";
+      await Helper.delay(0x3e8, this.acc, "Wallet connected " + JSON.stringify(this.wallet.address), this);
+    } catch (_0x5c28c2) {
+      throw _0x5c28c2;
+    }
+  }
+  async ["getBalance"](_0x228500 = false) {
+    try {
+      if (!_0x228500) {
+        await Helper.delay(0x1f4, this.acc, "Getting Wallet Balance of " + this.wallet.address, this);
+      }
+      const _0x49be10 = ethers.formatEther(await this.provider.getBalance(this.wallet.address));
+      this.balance = _0x49be10;
+      await Helper.delay(0x1f4, this.acc, "Balance updated", this);
+    } catch (_0x4bd3a5) {
+      throw _0x4bd3a5;
+    }
+  }
+  async ["getUserInfo"](_0x8b59d3 = false) {
+    try {
+      if (_0x8b59d3) {
+        await Helper.delay(0x1f4, this.acc, "Getting User Information of " + this.wallet.address, this);
+      }
+      const _0x496815 = await this.fetch("/dashboard?referral-code=" + this.something, 'POST', undefined, [this.address], {
+        'Referer': "https://sightai.io/dashboard?referral-code=" + this.something,
+        'Next-Action': "5dd1862a3d5d9a970c36c027f2d82f7280223906",
+        'Next-Router-State-Tree': this.stateTree,
+        'Cookie': this.cookie
+      });
+      if (_0x496815.status == 0xc8) {
+        this.user = this.decodeData(_0x496815.message);
+        this.cookie = "wagmi.recentConnectorId=\"com.okex.wallet\"; wagmi.store={\"state\":{\"connections\":{\"__type\":\"Map\",\"value\":[[\"b5fe8e1e492\",{\"accounts\":[\"" + this.address + "\"],\"chainId\":17000,\"connector\":{\"id\":\"com.okex.wallet\",\"name\":\"OKX Wallet\",\"type\":\"injected\",\"uid\":\"b5fe8e1e492\"}}],[\"8c5b60aac25\",{\"accounts\":[\"" + this.address + "\"],\"chainId\":17000,\"connector\":{\"id\":\"metaMask\",\"name\":\"MetaMask\",\"type\":\"injected\",\"uid\":\"8c5b60aac25\"}}]]},\"chainId\":17000,\"current\":\"8c5b60aac25\"},\"version\":2}; " + this.sessionCookie;
+        if (_0x8b59d3) {
+          await Helper.delay(0x1f4, this.acc, "Successfully Got User Data", this);
+        }
+      }
+    } catch (_0x21f606) {
+      throw _0x21f606;
+    }
+  }
+  async ["checkIn"]() {
+    try {
+      await Helper.delay(0x1f4, this.acc, "Try To Check In...", this);
+      const _0x9d633c = await this.fetch('/dashboard?referral-code=' + this.something, 'POST', undefined, [], {
+        'Referer': 'https://sightai.io/dashboard?referral-code=' + this.something,
+        'Next-Action': "e5afaaaeff44c664f214a016c10409c8e930d77a",
+        'Next-Router-State-Tree': this.stateTree,
+        'Cookie': this.cookie
+      });
+      if (_0x9d633c.status == 0xc8) {
+        await Helper.delay(0x1f4, this.acc, "Successfully Check In", this);
+      } else {
+        throw Error("Failed To Check In " + _0x9d633c.message);
+      }
+    } catch (_0x145846) {
+      throw _0x145846;
+    }
+  }
+  async ["connectSightAiDapps"]() {
+    await Helper.delay(0x3e8, this.acc, "Connecting to Sight Ai Dapps", this);
+    const _0x5cf463 = SIGHTAI.URL + " wants you to sign in with your Ethereum account: " + this.address + "\n\nMake sure that you trust this site and are aware of the security implications of signing this message.\n\nURI: " + SIGHTAI.URL + "\nVersion: " + SIGHTAI.VERSION + "\nChain ID: " + RPC.CHAINID + "\nNonce: " + Helper.generateNonce() + "\nIssued At: " + new Date().toISOString() + "\n";
+    _0x4bc345.info("Message to sign: " + _0x5cf463);
+    const _0x25eb07 = await this.wallet.signMessage(_0x5cf463);
+    _0x4bc345.info("Signed Message: " + _0x25eb07);
+    const _0x4a59dd = await this.fetch('/dashboard?referral-code=' + this.something, 'POST', undefined, [_0x25eb07, _0x5cf463, this.something], {
+      'Referer': "https://sightai.io/dashboard?referral-code=" + this.something,
+      'Next-Action': '3b934a35aaaa2acd0f7846cda4c3b1031a840b89',
+      'Next-Router-State-Tree': this.stateTree,
+      'Cookie': this.cookie
+    });
+    if (_0x4a59dd.status == 0xc8) {
+      await Helper.delay(0x1f4, this.acc, "Connected to Sight AI", this);
+      this.sightAiSignature = _0x25eb07;
+    } else {
+      throw Error("Failed to connect to SIGHT AI");
+    }
+  }
+  async ['getArcadeData'](_0x2f148c = false) {
+    try {
+      if (_0x2f148c) {
+        await Helper.delay(0x1f4, this.acc, "Getting Arcade Game Information...", this);
+      }
+      const _0x2c6980 = await this.fetch("/fomo", "POST", undefined, [0x0, "$undefined", 0x1, 0x6], {
+        'Referer': "https://sightai.io/fomo",
+        'Next-Action': "5ac42dcc7a005b04d92431cdc4172391e05d2ca3",
+        'Next-Router-State-Tree': this.stateTree,
+        'Cookie': this.cookie
+      });
+      if (_0x2c6980.status == 0xc8) {
+        const _0x4f37e6 = this.decodeData(_0x2c6980.message);
+        this.arcade = [];
+        if (_0x4f37e6.pools) {
+          this.arcade.push(..._0x4f37e6.pools);
+        }
+        this.availableArcade = this.arcade.find(_0x484767 => _0x484767.state == 0x1 || _0x484767.state == 0x2 || _0x484767.winner == "0x0000000000000000000000000000000000000000");
+        if (_0x2f148c) {
+          await Helper.delay(0x1f4, this.acc, "Successfully Got Arcade Info", this);
+        }
+      }
+    } catch (_0x1e3206) {
+      throw _0x1e3206;
+    }
+  }
+  async ['playArcade'](_0x681114) {
+    try {
+      await Helper.delay(0x3e8, this.acc, "Playing Arcade Game ID " + _0x681114.id + "...", this);
+      await Helper.delay(0x1f4, this.acc, "Prepare for Tx...", this);
+      await Helper.delay(0x1f4, this.acc, "Estimating Gas...", this);
+      const _0x4f32a5 = ethers.parseEther(Config.PLAYAMOUNT.toString());
+      const _0x2bac48 = Config.RAWDATA;
+      const _0x338271 = await this.provider.getTransactionCount(this.wallet.address, 'latest');
+      const _0x3823ab = await this.provider.getFeeData();
+      const _0x49e33d = await this.estimateGasWithRetry(_0x681114.address, _0x4f32a5, _0x2bac48, 0x3);
+      await Helper.delay(0x1f4, this.acc, "Build Tx Data...", this);
+      const _0x3eea25 = {
+        'from': this.address,
+        'to': _0x681114.address,
+        'value': _0x4f32a5,
+        'gasLimit': _0x49e33d,
+        'gasPrice': _0x3823ab.gasPrice,
+        'nonce': _0x338271,
+        'data': _0x2bac48
+      };
+      _0x4bc345.info("Preparing to send transaction for Arcade Game ID " + _0x681114.id);
+      await this.executeTx(_0x3eea25);
+      this.played = true;
+    } catch (_0x3bf372) {
+      await Helper.delay(0xbb8, this.acc, "Error Playing Arcade " + _0x3bf372.message + "...", this);
+      this.played = false;
+    }
+  }
+  async ['estimateGasWithRetry'](_0x3ebbe7, _0x2fb19e, _0x4f171f, _0x3dfc8a = 0x3, _0x4b0411 = 0xbb8) {
+    for (let _0x268487 = 0x0; _0x268487 < _0x3dfc8a; _0x268487++) {
+      try {
+        const _0x327c52 = await this.provider.estimateGas({
+          'from': this.wallet.address,
+          'to': _0x3ebbe7,
+          'value': _0x2fb19e,
+          'data': _0x4f171f
+        });
+        return _0x327c52;
+      } catch (_0x30e02b) {
+        await Helper.delay(_0x4b0411, this.acc, _0x30e02b.shortMessage + "... Attempt " + (_0x268487 + 0x1) + " of " + _0x3dfc8a, this);
+        if (_0x268487 === _0x3dfc8a - 0x1) {
+          throw Error("Failed to estimate gas after " + _0x3dfc8a + " attempts.");
+        }
+      }
+    }
+  }
+  ["decodeData"](_0x11058c) {
+    const _0x2f846e = _0x11058c.split("\n").filter(Boolean);
+    let _0x2feee7 = null;
+    _0x2f846e.forEach(_0x7e1350 => {
+      if (_0x7e1350.startsWith('1:')) {
+        const _0x19870b = _0x7e1350.substring(0x2).trim();
+        try {
+          _0x2feee7 = JSON.parse(_0x19870b);
+        } catch (_0x6f41fc) {
+          _0x2feee7 = {};
+        }
+      }
+    });
+    let _0x22d028 = JSON.stringify(_0x2feee7).replace(new RegExp(this.something, 'g'), "?????");
+    if (_0x22d028.length > 0xc8) {
+      _0x22d028 = _0x22d028.substring(0x0, 0xc8) + "...";
+    }
+    _0x4bc345.info("JSON Data : " + _0x22d028);
+    return _0x2feee7;
+  }
+  async ["executeTx"](_0x3ce68e) {
+    _0x4bc345.info("TX DATA " + JSON.stringify(Helper.serializeBigInt(_0x3ce68e)));
+    await Helper.delay(0x1f4, this.acc, "Executing TX...", this);
+    const _0x2ad7a0 = await this.wallet.sendTransaction(_0x3ce68e);
+    const _0x45d591 = await _0x2ad7a0.wait();
+    _0x4bc345.info("Tx Confirmed and Finalizing: " + JSON.stringify(_0x45d591));
+    await Helper.delay(0x1388, this.acc, "Tx Executed \n" + RPC.EXPLORER + "tx/" + _0x45d591.hash, this);
+    await this.getBalance(true);
+  }
+}
