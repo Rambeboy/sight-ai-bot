@@ -12,7 +12,7 @@ export default class Core extends API {
     this.acc = _0x36c156;
     this.played = false;
     this.provider = new ethers.JsonRpcProvider(RPC.RPCURL, RPC.CHAINID);
- // this.stateTree = '%5B%22%22%2C%7B%22children%22%3A%5B%22(platform)%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22__PAGE__%3F%7B%5C%22referral-code%5C%22%3A%5C%22' + this.something + "%5C%22%7D%22%2C%7B%7D%2C%22%2Fdashboard%3Freferral-code%3D" + this.something + '%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D';
+    this.stateTree = '%5B%22%22%2C%7B%22children%22%3A%5B%22(platform)%22%2C%7B%22children%22%3A%5B%22dashboard%22%2C%7B%22children%22%3A%5B%22__PAGE__%3F%7B%5C%22referral-code%5C%22%3A%5C%22' + this.something + "%5C%22%7D%22%2C%7B%7D%2C%22%2Fdashboard%3Freferral-code%3D" + this.something + '%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D';
   }
   async ["connectWallet"]() {
     try {
@@ -54,7 +54,7 @@ export default class Core extends API {
         await Helper.delay(0x1f4, this.acc, "Getting User Information of " + this.wallet.address, this);
       }
       const _0x496815 = await this.fetch("/dashboard?referral-code=" + this.something, 'POST', undefined, [this.address], {
-     // 'Referer': "https://sightai.io/dashboard?referral-code=" + this.something,
+        'Referer': "https://sightai.io/dashboard",
         'Next-Action': "5dd1862a3d5d9a970c36c027f2d82f7280223906",
         'Next-Router-State-Tree': this.stateTree,
         'Cookie': this.cookie
@@ -74,7 +74,7 @@ export default class Core extends API {
     try {
       await Helper.delay(0x1f4, this.acc, "Try To Check In...", this);
       const _0x9d633c = await this.fetch('/dashboard?referral-code=' + this.something, 'POST', undefined, [], {
-     // 'Referer': 'https://sightai.io/dashboard?referral-code=' + this.something,
+        'Referer': 'https://sightai.io/dashboard',
         'Next-Action': "e5afaaaeff44c664f214a016c10409c8e930d77a",
         'Next-Router-State-Tree': this.stateTree,
         'Cookie': this.cookie
@@ -95,7 +95,7 @@ export default class Core extends API {
     const _0x25eb07 = await this.wallet.signMessage(_0x5cf463);
     _0x4bc345.info("Signed Message: " + _0x25eb07);
     const _0x4a59dd = await this.fetch('/dashboard?referral-code=' + this.something, 'POST', undefined, [_0x25eb07, _0x5cf463, this.something], {
-   // 'Referer': "https://sightai.io/dashboard?referral-code=" + this.something,
+      'Referer': "https://sightai.io/dashboard",
       'Next-Action': '3b934a35aaaa2acd0f7846cda4c3b1031a840b89',
       'Next-Router-State-Tree': this.stateTree,
       'Cookie': this.cookie
@@ -113,7 +113,7 @@ export default class Core extends API {
         await Helper.delay(0x1f4, this.acc, "Getting Arcade Game Information...", this);
       }
       const _0x2c6980 = await this.fetch("/fomo", "POST", undefined, [0x0, "$undefined", 0x1, 0x6], {
-     // 'Referer': "https://sightai.io/fomo",
+        'Referer': "https://sightai.io/fomo",
         'Next-Action': "5ac42dcc7a005b04d92431cdc4172391e05d2ca3",
         'Next-Router-State-Tree': this.stateTree,
         'Cookie': this.cookie
